@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NavBar from './components/navbar';
+import AboutMe from './AboutMe';
+import Form from './Form';
+import Portfolio from '/.Portfolio';
+import Resume from '/.Resume'
 
+// TODO: Add a comment explaining what this function is doing
+// This function is a functional component that helps us split the UI into distinct parts.
+// In this case, we are returning another component, <HelloReact/> from it.
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  return <NavBar/>;
+};
 
 export default App;
+
