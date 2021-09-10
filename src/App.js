@@ -6,9 +6,17 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume'
 
 
-export default function App() {
-  return <NavBar/>, <AboutMe/>, <Form/>, <Portfolio/>, <Resume/>;
+function App() {
+  return (
+  <div>
+  <NavBar/>
+  <AboutMe/>
+  <Form/> 
+  <Portfolio/>
+  <Resume/>
+  </div>
+  );
+}
 
-};
-
+export default App;
 
