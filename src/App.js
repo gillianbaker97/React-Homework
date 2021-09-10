@@ -1,15 +1,14 @@
 import React from 'react';
 import NavBar from './components/navbar';
-import AboutMe from './AboutMe';
-import Form from './Form';
-import Portfolio from '/.Portfolio';
-import Resume from '/.Resume'
+import AboutMe from './components/AboutMe';
+import Form from './components/Form';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume'
 
-// TODO: Add a comment explaining what this function is doing
-// This function is a functional component that helps us split the UI into distinct parts.
-// In this case, we are returning another component, <HelloReact/> from it.
+
 function App() {
-  return <NavBar/>;
+  return <NavBar/>, <AboutMe/>, <Form/>, <Portfolio/>, <Resume/>;
+
 };
 
 export default App;

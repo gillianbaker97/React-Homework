@@ -1,18 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./App";
-import /bootstrapped
+import App from './App';
+import './public/assets.style.css';
+import 'https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/materia/bootstrap.css';
 
 
-// TODO: Add a comment describing the significance of the ReactDOM.render method
-// ReactDOM.render takes a React component, or tree of React components and (eventually) renders them to the DOM.
-// The first argument is the component we want to render (<App/>), and second is the target element to render to (#root)
 ReactDOM.render(
-     <React.StrictMode> 
-    <App />  
-    </React.StrictMode>, 
+    <App />,  
     document.getElementById('root')
 );
  
-
-reactDom.render(<App/>), document.getElementById('root')
