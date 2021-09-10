@@ -6,10 +6,9 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume'
 
 
-function App() {
+export default function App() {
   return <NavBar/>, <AboutMe/>, <Form/>, <Portfolio/>, <Resume/>;
 
 };
 
-export default App;
 
